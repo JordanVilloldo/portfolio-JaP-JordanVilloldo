@@ -86,4 +86,8 @@ const observerConfig = { attributes: true, childList: true, subtree: true };
 observer.observe(document.body, observerConfig);
 
 
-
+function irAlTiempo(tiempoSegundos) {
+    var miVideo = document.getElementById('videoBugbusters');
+    miVideo.currentTime = tiempoSegundos;
+    miVideo.play(); // Inicia la reproducción del video desde el tiempo especificado
+}
