@@ -98,8 +98,10 @@
 }
 
 
-
-
+/*TEAM*/
+.team-member img {
+  cursor: pointer;
+}
 
 
 
